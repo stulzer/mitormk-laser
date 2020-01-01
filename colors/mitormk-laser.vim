@@ -1,4 +1,4 @@
-" MiToRMK Laser Colorscheme 
+" MiToRMK Laser Colorscheme
 "
 " - iTerm2 only
 " - Depends on MiToRMK Laser colorscheme for iTerm2
@@ -30,6 +30,9 @@ let g:colors_name = "mitormk-laser"
 
 highlight Visual ctermbg=Red ctermfg=Black
 highlight CursorLine cterm=NONE ctermbg=Red ctermfg=Black
+highlight SpellBad ctermbg=Black ctermfg=Cyan
+highlight SpellRare ctermbg=Black ctermfg=Red
+highlight SpellLocal ctermbg=Blue ctermfg=Black
 
 if &t_Co == 88 || &t_Co == 256
   " Returns an approximate grey index for the given grey level
@@ -321,6 +324,9 @@ if &t_Co == 88 || &t_Co == 256
   call <SID>X("rubyDoBlock", s:purple, "", "")
   call <SID>X("rubyTestAction", s:blue, "", "")
   call <SID>X("rubyAssertion", s:blue, "", "")
+
+  " git Highlighting
+  call <SID>X("gitcommitSummary", s:red, "", "")
 
   " Python Highlighting
   call <SID>X("pythonInclude", s:purple, "", "")
