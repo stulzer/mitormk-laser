@@ -373,8 +373,8 @@ if &t_Co == 88 || &t_Co == 256
 
   " JSON Highlighting
   call <SID>X("jsonKeyword", s:red, "", "")
-  call <SID>X("jsonString", s:red, "", "")
-  call <SID>X("jsonKeywordMatch", s:red, "", "")
+  call <SID>X("jsonString", s:green, "", "")
+  call <SID>X("jsonKeywordMatch", s:green, "", "")
   call <SID>X("jsonQuote", s:red, "", "")
   call <SID>X("jsonBraces", s:orange, "", "")
   call <SID>X("jsonNoise", s:orange, "", "")
