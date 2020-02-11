@@ -371,6 +371,11 @@ if &t_Co == 88 || &t_Co == 256
   call <SID>X("htmlArg", s:red, "", "")
   call <SID>X("htmlScriptTag", s:red, "", "")
 
+  " JSON Highlighting
+  call <SID>X("jsonKeyword", s:red, "", "")
+  call <SID>X("jsonBraces", s:red, "", "")
+  call <SID>X("jsonQuote", s:red, "", "")
+
   " Diff Highlighting
   call <SID>X("diffAdded", s:green, "", "")
   call <SID>X("diffRemoved", s:red, "", "")
