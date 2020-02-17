@@ -28,7 +28,7 @@ syntax reset
 
 let g:colors_name = "mitormk-laser"
 
-highlight Visual ctermbg=Red ctermfg=Black
+highlight Visual ctermbg=Cyan ctermfg=Black
 highlight CursorLine cterm=NONE ctermbg=Red ctermfg=Black
 highlight SpellBad ctermbg=Black ctermfg=Cyan
 highlight SpellRare ctermbg=Black ctermfg=Red
