@@ -391,8 +391,25 @@ if &t_Co == 88 || &t_Co == 256
   delf <SID>grey_number
 endif
 
+" Visual colors
 highlight Visual ctermbg=Cyan ctermfg=Black
 highlight CursorLine cterm=NONE ctermbg=Red ctermfg=Black
+
+" Spelling
 highlight SpellBad ctermbg=Black ctermfg=Cyan
 highlight SpellRare ctermbg=Black ctermfg=Red
 highlight SpellLocal ctermbg=Blue ctermfg=Black
+
+" Pmenu - normal item
+highlight Pmenu ctermbg=Red ctermfg=Black
+" PmenuSel - selected item
+highlight PmenuSel ctermbg=Black ctermfg=Cyan
+" PmenuSbar - scrollbar
+highlight PmenuSbar ctermbg=Blue
+" PmenuThumb - thumb of the scrollbar
+highlight PmenuThumb ctermbg=Red
+
+" CoC Highlighting
+highlight CocErrorSign   ctermfg=Black ctermbg=Red
+highlight CocWarningSign ctermfg=Black ctermbg=Yellow
+highlight CocInfoSign    ctermfg=Black ctermbg=Cyan
