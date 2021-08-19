@@ -24,3 +24,6 @@ Color scheme inspired on [MiToRMK Laser](https://mitormk.com/laser-gmk/#jp-carou
 
 ### NerdTREE and Sass Code
 ![NerdTREE and Sass Code in MiToRMK Laser Colorscheme](https://github.com/stulzer/mitormk-laser/raw/master/images/nerdtree-sass.png)
+
+### React with TypeScript
+![React with TypeScript code in MiToRMK Laser Colorscheme](https://github.com/stulzer/mitormk-laser/raw/master/images/react-ts.png)
