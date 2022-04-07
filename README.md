@@ -1,7 +1,7 @@
 MiToRMK Laser Colorscheme
 =========================
 
-Color scheme inspired on [MiToRMK Laser](https://mitormk.com/laser-gmk/#jp-carousel-1738) colors. :)
+Color scheme inspired on [MiToRMK Laser](https://mitormk.com/portfolio/gmk-laser-round-2-2020/) colors. :)
 
 ### mitormk-laser.vim dependencies
 - iTerm2 only
